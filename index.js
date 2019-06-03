@@ -17,9 +17,5 @@ function tailsNeverFails(){
   while (coinToss()) {
   counter++
 }
-if coinToss()= true{
   return (`You got ${counter} tails in a row!`)
-}else{
-  return []
-}
 }
